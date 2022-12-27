@@ -1,0 +1,5 @@
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(163, 204, 100);
+}
