@@ -38,8 +38,9 @@ h1,h2{
     letter-spacing: 0.01em;
 }
 .container{
-    max-width: 1290px;
+    max-width: 1390px;
     margin: 0 avto;
+    padding: 0 50px;
 }
 .hide{
     display: none;
@@ -56,8 +57,37 @@ ul{
 button, input{
     font: inherit;
 }
-button{cursor: pointer;}
+button{
+    cursor: pointer;
+}
+@media(max-width:1440px){
+    .container{
+    padding: 0 42px;
+    }
+}
+@media(max-width:1200px){
+    .container{
+    padding: 0 42px;
+    }
+}
+@media(max-width:1000px){
+    .container{
+    padding: 0 42px;
+    }
+}
+@media(max-width:760px){
+    .container{
+    padding: 0 42px;
+    }
+}
+@media(max-width:580px){
+    .container{
+    padding: 0 42px;
+    }
+}
+
 
 h1{
     font-family:Cormorant;
+    background-color: #050555;
 }

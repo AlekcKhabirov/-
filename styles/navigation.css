@@ -27,3 +27,8 @@
 .navigation__link:hover{
     color: var(--main-bg-color);
 }
+@media(max-width:1000px){
+    .navigation{
+    
+    }
+}
