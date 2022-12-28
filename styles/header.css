@@ -50,6 +50,7 @@
 @media(max-width:1000px){
     .header__container{
         grid-template-columns: repeat(3,1fr);
+        gap: 38px;
     }
     .header{
         padding: 20px 0;
@@ -75,10 +76,17 @@
 }
 
 @media(max-width:580px){
+    .header{
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+    .header__container{
+        gap: 15px;
+    }
     .header__consultation{
         padding: 5px 14px;
         font-size: 12px;
         grid-row: 1;
-        grid-column: 3; 
+        grid-column: 3;
     }
 }
