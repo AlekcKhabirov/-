@@ -1,6 +1,7 @@
 .navigation__list{
     display:flex;
     gap: 50px;
+    justify-content: space-between;
 }
 .navigation__link{
     font-size: 18px;
@@ -41,5 +42,15 @@
     }
     .navigation_activ{
         display: block;
+    }
+    .navigation__item{
+        flex-basis: 146px;
+        width: 100%;
+    }
+    .navigation__link{
+        display: block;
+        width: 100%;
+        border: 1px solid #E5AB39;
+        border-radius: 20px;
     }
 }
