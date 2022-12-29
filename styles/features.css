@@ -1,0 +1,14 @@
+.features__list{
+    height: 241px;
+    max-width: 2000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 115px;
+    background-color: var(--second-bg-color);   
+}
+.features__item{
+    width: 236px;
+    height: 161px;
+    align-items: center;
+}
+.visualle-hidden{display: none;}
