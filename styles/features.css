@@ -1,14 +1,17 @@
-.features__list{
-    height: 241px;
-    max-width: 2000px;
+.features{
+    height: 241px; 
+    background-color: var(--second-bg-color); 
+}
+.features__list{   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 115px;
-    background-color: var(--second-bg-color);   
+    gap: 115px;     
 }
 .features__item{
     width: 236px;
     height: 161px;
     align-items: center;
 }
-.visualle-hidden{display: none;}
+.visualle-hidden{
+    display: none;
+}
