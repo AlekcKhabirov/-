@@ -1,9 +1,9 @@
-.features{
-    background-color:url(--second-bg-color);
+.features{  
+    background-color:var(--second-bg-color);
     padding: 40px 0;
     color:var(--main-color);
 }
-.features-list{
+.features-list{ 
     display: flex;
     gap: 30px;
     justify-content: space-between;
@@ -19,16 +19,24 @@
 }
 
 .features__item_one{
-    background-image: url(--url-features-one);
+    background-image: var(--url-features-one);
+    background-repeat:no-repeat;
+    
 }
 .features__item_two{
-    background-image: url(--url-features-two);
+    background-image: var(--url-features-two);
+    background-repeat:no-repeat;
+    
 }
 .features__item_three{
-    background-image: url(--url-features-three);
+    background-image: var(--url-features-three);
+    background-repeat:no-repeat;
+ 
 }
 .features__item_four{
-    background-image: url(--url-features-four);
+    background-image: var(--url-features-four);
+    background-repeat:no-repeat;
+   
 }
 
 /*.features{
