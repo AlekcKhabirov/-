@@ -6,7 +6,7 @@
     url("../fonts/cormorant-v11-latin_cyrillic-700.woff") format(woff);
     font-display:swap;   
 }
-:root{ --main-color:#ffffff;
+/*:root{ --main-color:#ffffff;
     --second-color:#262626;
     --one-color: #00654E;
     --two-color:#006E55;
@@ -15,9 +15,20 @@
     --second-bg-color:#C0B487;
     --trigger-color:#E5AB39;
     box-sizing: border-box;
-}
+}*/
 *,*::after,*::before{
     box-sizing:inherit;
+}
+.visualle-hidden{
+    position: absolute;
+    clip: 1px 1px 1px 1px;
+    clip: 1px, 1px, 1px, 1px;
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 img{
     max-width: 100%;
