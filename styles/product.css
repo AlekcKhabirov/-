@@ -1,0 +1,26 @@
+.product{
+    padding: 80px 0;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+.product:nth-child(3n){
+background-color: var(--one-color);
+}
+.product:nth-child(3n+1){
+background-color: var(--two-color);
+}
+.product:nth-child(3n+2){
+background-color: var(--tree-color);
+}
+.product__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.product:nth-child(even) .product__container{
+    flex-direction: row-reverse;
+}
+.product__content{
+    padding-top: 56px;
+    max-width: 520px;
+}

@@ -6,6 +6,9 @@
     url("../fonts/cormorant-v11-latin_cyrillic-700.woff") format(woff);
     font-display:swap;   
 }
+html{
+    box-sizing:border-box;
+}
 
 *,*::after,*::before{
     box-sizing:inherit;
@@ -69,22 +72,22 @@ button{
 }
 @media(max-width:1200px){
     .container{
-    padding: 0 42px;
+    padding:;
     }
 }
 @media(max-width:1000px){
     .container{
-    padding: 0 42px;
+    padding: ;
     }
 }
 @media(max-width:760px){
     .container{
-    padding: 0 42px;
+    padding: ;
     }
 }
 @media(max-width:580px){
     .container{
-    padding: 0 42px;
+    padding: ;
     }
 }
 
