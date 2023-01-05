@@ -3,9 +3,9 @@
     padding: 40px 0;
     color:var(--main-color);
 }
-.features-list{ 
+.features__list{ 
     display: flex;
-    flex-wrap: wrap;
+    flex-grow: 0;
     gap: 30px;
     justify-content: space-between;
 }
@@ -17,8 +17,8 @@
     font-size: 18px;
     line-height: 120%;
     letter-spacing: 0.04em;
+    background-repeat:no-repeat; 
     background-position:center top;
-    background-repeat:no-repeat;
     background-size: 110px;
 }
 
