@@ -1,0 +1,59 @@
+.pay{
+    background-color: var(--second-bg-color);
+    padding: 60px 0 80px;
+    color: var(--main-color);
+}
+
+.pay__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;    
+    margin-bottom: 48px;
+}
+.pay__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pay__item{
+    flex-basis: calc((100%/3)-(60px/3));
+}
+
+
+
+
+   /* text-align: left;   margin-top: 60px; */
+/*
+.pay{
+    background-color: var(--second-bg-color);
+}
+.pay__info{
+    display: flex;
+    gap: 30px;
+    
+}
+.pay__features{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+   letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.pay__description{
+    font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+
+
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.pay__info_one{
+    margin-top: 0;
+    padding: 59px;
+    align-items: center;
+    background-image:var(--url-pay-one);
+    background-repeat: no-repeat;
+}*/

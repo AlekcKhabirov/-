@@ -22,6 +22,7 @@
             --url-features-two:url("../images/christmas-decorations.svg");
             --url-features-three:url("../images/flowers.svg");
             --url-features-four:url("../images/delivery-truck.svg");
+            --url-pay-one:url("../images/Frame 14.svg");
         }
     </style>
     <link rel="stylesheet" href="styles/default.css">
@@ -32,7 +33,8 @@
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/features.css">
     <link rel="stylesheet" href="styles/product.css">
-
+    <link rel="stylesheet" href="styles/pay.css">
+    <link rel="stylesheet" href="styles/option-pay.css">
 
 </head>
 <body><h1 style="text-align:center">С новым годом 2023</h1>
@@ -140,9 +142,40 @@
                 <img src="images/Rectangle3.jpg" alt="Пихта Фразера" class="product__picture" width="630px"height="590px">
             </div>
         </section>
-        <section class="play" >
+        <section class="pay" >
             <div class="container">
-                
+            <h2 class="pay__title">Как можно оплатить</h2>
+            <ul class="pay__list">
+                <li class="pay__item">
+                    <article class="pay_option_pay option-pay">
+                        <div class="option-pay__pictere_wrapper">
+                            <img src="images/Frame 14.svg" alt="оплатитьБанковской картойVisa/Mastercard или PayPal из любой страны">
+                        </div>
+                        <h3 class="option-pay__title">Банковской картой</h3>
+                        <p class="option-pay__description">Visa/Mastercard или PayPal из любой страны </p>
+                        
+                    </article></li>
+                <li class="pay__item">
+                    <article class="pay_option_pay option-pay">
+                        <div class="option-pay__pictere_wrapper">
+                            <svg>
+                                <use xlink:href="#logo"/>
+                            </svg>
+                        </div>
+                        <h3 class="option-pay__title">Беспроцентная рассрочка от нас</h3>
+                        <p class="option-pay__description">Мы делим платеж на 2 части. Первую часть вы оплачиваете сразу, вторую через 15 дней после получения дерева </p>
+                    </article></li>
+                <li class="pay__item">
+                    <article class="pay_option_pay option-pay">
+                        <div class="option-pay__pictere_wrapper">
+                            <img src="images/section8-tinkoff.svg" alt="оплатитьБанковской картой tinkoff">
+                        </div>
+                        <h3 class="option-pay__title">Беспроцентная рассрочка 
+                            от&nbspТинькофф</h3>
+                        <p class="option-pay__description">Рассрочка на 3 месяца без первоначального платежа</p>
+                    </article>
+                </li>
+            </ul>
             </div>
         </section>
 
